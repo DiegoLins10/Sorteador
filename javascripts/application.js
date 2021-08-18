@@ -3,8 +3,8 @@ var numbers = [76, 182, 297]; //new Array();
 var winners = new Array();
 var winner = "Desconhecido";
 
-var start = 9;
-var end = 13;
+var start = 001;
+var end = 200;
 var delay = 2200;
 
 $().ready(function() {
