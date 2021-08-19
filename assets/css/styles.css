@@ -1378,3 +1378,11 @@ button{
     }
 
 }
+
+/* PARA FIXAR A IMAGEM INTEIRO NO FUNDO */
+.bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
