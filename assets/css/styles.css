@@ -176,6 +176,7 @@ button{
     max-width: 768px;
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
+    place-items: center;
 }
 
 .grid{
@@ -1231,7 +1232,8 @@ button{
         column-gap: 2rem;
     }
     .home__blob{
-        width: 270px;
+        width: 199px;
+        margin-top: -178px;
     }
     .home__scroll{
         display: block;
@@ -1339,7 +1341,7 @@ button{
     }
 
     .home__blob{
-        width: 320px;
+        width: 212px;
     }
     .home__social{
         transform: translateX(-6rem);
