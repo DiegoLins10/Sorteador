@@ -1,41 +1,83 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-  <head>
-    <title>Sorteio de Brindes</title>
-    <link rel="stylesheet" href="stylesheets/application.css" type="text/css" media="screen" charset="utf-8"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  </head>
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <body>
-    <div id="container">
-      <div id="form_dic">
-        <input type="button" name="" value="Sortear" id="sortear"/>
-      </div>
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="//unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-      <div class="numbers">
-        <blink id="result">
-       </blink>
-          <span id="c">0</span>
-          <span id="d">0</span>
-          <span id="u">0</span>
-      </div>
-      <br/>
-         <blink class="names" id="winner"></blink>
-      <br/>
-      <hr />
-      <div class="raffles">
-        <p>Números sorteados</p>
-        <p id="chosen"></p>
-      </div>
+        <title>Débora Portfolio Website</title>
 
-  <div id="sound_element"></div></div>
-  </body>
-  <!-- <script src="javascripts/jquery-latest.min.js"></script> -->
-  <script src="javascripts/jquery-lastet.js"></script>
-  <script src="javascripts/jquery-timers.js"></script>
-  <script src="javascripts/application.js"></script>
+        <link rel="shortcut icon" href="assets/img/D_black.png">
+        
+    </head>
+    <body background="./assets/img/fundo giz.jpg">
+        
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">Sorteio do vovô Joaquim</h2>
+                <span class="section__subtitle">Obrigado por participar!</span>
+        
+                <div class="about__container container grid">
+                    <img src="assets/img/vovô Joaquim .png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">Sorteio.</p>
+
+                        <div class="about__info">
+                            <div>
+                                <span id = "c" class="about__info-title">0</span>
+                            </div>
+
+                            <div>
+                                <span id = "d" class="about__info-title">0</span>
+                            </div>
+
+                            <div>
+                                <span id = "u" class="about__info-title">0</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a class="button button--flex" name="" value="Sortear" id="sortear">
+                                Sortear <i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                        <div class="raffles">
+                          <p class="num" >Números sorteados</p>
+                          <p id="chosen" class="ganhador"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="sound_element"></div></div>
+          </body>
+           
+
+           
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+
+        <!--==================== EMAIL ====================-->
+        <script src="javascripts/jquery-lastet.js"></script>
+        <script src="javascripts/jquery-timers.js"></script>
+        <script src="javascripts/application.js"></script>
+
+    </body>
 </html>
-
-
-

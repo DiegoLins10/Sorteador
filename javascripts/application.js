@@ -105,7 +105,7 @@ function show_button(){
 
 function show_chosen(number){
   $("#winner").html(winner);
-  $("#chosen").prepend(number +" "+winner + "<br />");
+  $("#chosen").prepend(number +" - "+winner + "<br />");
   // stop sound
   $('#sound_element').html("");
 }
